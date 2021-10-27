@@ -1,0 +1,10 @@
+function f = fK_Robin(P)
+kappa = Genk_Robin(P);
+x = P(1);
+y = P(2);
+z = P(3);
+a = kappa(1,1);
+b = kappa(2,2);
+c = kappa(1,2);
+d = kappa(3,3);
+f = -(b*x^2+a*y^2+2*c*(1+x*y))*exp(x*y)-2*d;
