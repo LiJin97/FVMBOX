@@ -1,0 +1,13 @@
+function g = Gengrad(P)
+x = P(1);
+y = P(2);
+z = P(3);
+if x <=0.5
+    g =                       [cos(y) + 2*sin(y);...
+        cos(y) + (x - 1/2)*(2*cos(y) - sin(y));...
+        1]';
+else
+    g =                       [ exp(x - 1/2)*sin(y);...
+ exp(x - 1/2)*cos(y);...
+                   1]';
+end
