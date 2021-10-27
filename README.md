@@ -9,6 +9,7 @@ This a research tool for solving diffusion problem by finite volume method. It p
  
 FVMBOX is written in the prototyping language, MATLAB.
 
+Main references: K. Pan, J. Li, W. WU. A new finite volume scheme with gradient transfer method for solving diffusion problems on the distorted hexahedral meshes.(Major Revision)
  
 Authors: Kejia Pan <kejiapan@csu.edu.cn>
          Jin Li <li_jin@csu.edu.cn>
